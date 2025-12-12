@@ -1,44 +1,36 @@
-# Quantum_Research_Experiments
-This repositry was made to hold the experiments done for comparing classical and quantum SVMs
+#  Quantum SVM Research — Classical vs Quantum Machine Learning on Wine Dataset
 
+This repository contains the full implementation, experiments, and reproducible analysis for my research comparing **Classical Support Vector Machines (SVMs)** and **Quantum Support Vector Machines (QSVMs)** using the Wine classification dataset.  
+All experiments follow a reproducible pipeline with:
 
-# QSVM Experiment: Classical vs Quantum SVM on Wine Dataset
+-  Multiple quantum feature maps  
+-  Fidelity-based quantum kernels  
+-  Classical baselines  
+-  Noise simulations  
+-  Kernel similarity analysis  
+-  Complete visualizations & metrics  
+-  A full automated analysis pipeline
 
-This repository contains the official implementation and reproducible workflow of my research comparing **Classical Support Vector Machines (SVMs)** and **Quantum Support Vector Machines (QSVMs)** using Qiskit Machine Learning.
-
-The goal of this repository is to provide:
-- a clean and reusable implementation
-- full experiment reproducibility
-- cutting-edge QSVM techniques
-- multiple feature maps (ZZ, Pauli, Custom Data Re-uploading)
-- complete kernel matrices, confusion matrices, results, and plots
-- a guided replication path for students and researchers
-
----
-
-## Research Workflow
-
-1. **Data Preprocessing**
-   - Wine dataset
-   - StandardScaler normalization
-   - PCA dimensionality reduction
-
-2. **Classical SVM**
-   - Linear / RBF kernels
-   - Performance benchmarks
-
-3. **Quantum SVM (QSVM)**
-   - FidelityStatevectorKernel
-   - ZZFeatureMap, PauliFeatureMap, and Custom Nonlinear Feature Map
-   - Kernel evaluation matrices
-
-4. **Performance Comparison**
-   - Accuracy
-   - Runtime
-   - Noise impact
-   - Confusion matrices
-   - Kernel analysis
+This repository is structured like a publication-ready research project and is designed to help researchers, students, and practitioners reproduce the entire workflow.
 
 ---
 
-##  Repository Structure
+##  Highlight Features
+
+###  Classical vs Quantum SVM Comparison
+- RBF-SVM baseline  
+- Fidelity-based QSVM  
+- Multiple feature maps (ZZ, Pauli, Custom)  
+- Runtime comparison  
+- Accuracy benchmarking
+
+###  Quantum Kernel Analysis
+- Quantum kernel matrices  
+- Kernel similarity heatmaps  
+- Effect of quantum circuit depth  
+- Noise-aware kernel evaluation  
+
+###  Noise Simulation
+- Depolarizing noise model  
+- Accuracy vs noise strength  
+- Hardware-realistic behavior  
